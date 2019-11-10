@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import theme from '../theme'
-import Header from '../components/Header'
+import Layout from '../components/Layout'
 
 const Container = styled.div`
   display: flex;
@@ -75,8 +75,7 @@ const InnerContainer = styled.div`
 `
 
 const IndexPage = () => (
-  <>
-  <Header/>
+  <Layout>
   <Container>
     <InnerContainer>
       <Preamble>
@@ -98,7 +97,7 @@ const IndexPage = () => (
       </RSVPButton>
     </InnerContainer>
   </Container>
-  </>
+  </Layout>
 )
 
 export default IndexPage

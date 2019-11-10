@@ -1,7 +1,9 @@
 import React from 'react'
 import { Section, SectionTitle, SectionBody } from '../components/Section'
+import Layout from '../components/Layout'
 
 const GiftsPage = () => (
+  <Layout>
   <Section>
     <SectionTitle>Gifts</SectionTitle>
     <SectionBody>
@@ -31,6 +33,7 @@ const GiftsPage = () => (
       </ul>
     </SectionBody>
   </Section>
+  </Layout>
 )
 
 export default GiftsPage

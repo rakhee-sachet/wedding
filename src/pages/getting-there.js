@@ -2,6 +2,7 @@ import React from 'react'
 import { GoogleApiWrapper, Map, Marker } from 'google-maps-react'
 import { Section, SectionTitle, SectionBody } from '../components/Section'
 import styled from 'styled-components'
+import Layout from '../components/Layout'
 
 const MapContainer = styled.div`
   width: 100%;
@@ -16,6 +17,7 @@ const bayonetFarmLatLng = {
 }
 
 const GettingTherePage = ({ google }) => (
+  <Layout>
   <Section>
     <SectionTitle>Getting There</SectionTitle>
 
@@ -112,6 +114,7 @@ const GettingTherePage = ({ google }) => (
       </Map>
     </MapContainer>
   </Section>
+  </Layout>
 )
 
 export default GoogleApiWrapper({

@@ -1,13 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Section, SectionTitle, SectionBody } from '../components/Section'
-import usImg from './us.jpg'
+import usImg from '../images/us.jpg'
+import Layout from '../components/Layout'
 
 const Image = styled.img`
   width: 100%;
 `
 
 const MiscPage = () => (
+  <Layout>
   <Section>
     <SectionTitle>Miscellaneous Information</SectionTitle>
 
@@ -64,6 +66,7 @@ const MiscPage = () => (
       <p>And no, I don't do freelance projects - CJB</p>
     </SectionBody>
   </Section>
+  </Layout>
 )
 
 export default MiscPage
