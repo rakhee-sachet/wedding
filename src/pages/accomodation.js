@@ -9,15 +9,14 @@ const AccomodationPage = () => (
 
       <SectionBody>
         <p>
-          As the celebration is going to be hosted outside of New York City, you
-          might want to consider staying nearby so that you don't need to travel
-          late in the evening.
+          As the celebration is going to be hosted in the town knows as Beach City, you might want to 
+          enjoy the beach and at the same time consider staying nearby so that you don't need to travel.
         </p>
 
         <h3>Hotel Options</h3>
 
         <p>
-          In the nearby town of Red Bank, N.J. there are three hotel options, all in walking distance
+          In the nearby town of Hua Hin, TH. there are three hotel options, all in walking distance
           from the Red Bank train station.
         </p>
 

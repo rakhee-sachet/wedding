@@ -31,52 +31,56 @@ const SchedulePage = () => (
     <SectionTitle>Schedule</SectionTitle>
 
     <SectionBody>
-      <h3>Friday, October 19th 2018</h3>
-      <Location>Red Bank, NJ, USA</Location>
+      <h3>Tuesday, February 25th 2020 <br /> Yana Villa, Thailand</h3>
+      <Location>Mehndi by the Pool</Location>
 
       <p>
-        <strong>6pm - 11pm</strong> – We'll be at a bar in Red Bank (location TBD) and we'd love
-        to see you for a drink if you're here early.
-      </p>
-
-      <h3>Saturday, October 20th 2018</h3>
-      <Location>Bayonet Farm, Holmdel, NJ, USA</Location>
-
-      <p>
-        <strong>4.45pm</strong> – Bus departs from the Molly Pitcher Inn (Red Bank) to the venue.
+        <strong>8am</strong> – Bus departs from Bangkok(Suvarnabhumi Airport) to the venue.
       </p>
 
       <p>
-        <strong>5pm - 10pm</strong> – We'll be kicking things off with cocktails
-        before saying a few words, and then sitting down for a buffet. After
-        dinner we'll be having some non-traditional pies and then dancing off all of
-        that food in a hundred year old barn.
-      </p>
-      <p>
-        <strong>10.15pm</strong> – Bus departs from the farm to Molly Pitcher & the Dubline House
-        for the after party.
+        <strong>11am - 4pm</strong> – Join us for MEHNDI Panting by the Pool. Wear colourful!
       </p>
 
+      <Location>Sangeet & Engagement</Location>
 
-      <Location>Dublin House, Red Bank, NJ, USA</Location>
       <p>
-        <strong>11pm - Late</strong> – After party for those who aren't already
-        partied out. We'll be upstairs at the &nbsp;
-        <a href="https://goo.gl/maps/L5GgNwHnXNM2" target="_blank" rel="noopener noreferrer">Dublin House</a> until 1am, or until
-        they kick us out.
+        <strong>6:30pm</strong> – We'll be kicking things off with Sangeet & Engagement ceremony.
+        Be glamaorous!
       </p>
 
-      <h3>Sunday, October 21st 2018</h3>
-      <Location>61 Local, Brooklyn, NY, USA</Location>
+      <h3>Wednesday, February 26th 2020 <br /> Yana Villa, Thailand</h3>
+      <Location>Haldi</Location>
       <p>
-        <strong>7pm - Late</strong> – Drinks in one of our favo(u)rite
-        neighbo(u)rhood spots.
+        <strong>8am - 9.30am</strong> – Haldi Ceremony. Shine like a Sun!
+      </p>
+
+      <Location>Wedding/Phere</Location>
+
+      <p>
+        <strong>3pm - 6pm</strong> – An Afternoon by the beach wrapped in tradition, family and 
+        Indian culture. Wear your elegant and stunning Indian attire.
+      </p>
+
+      <Location>Reception Dinner</Location>
+
+      <p>
+        <strong>7.00pm - 9.00pm</strong> – Dinner
+      </p>
+
+      <h3>Thursday, February 27th 2020 <br /> Yana Villa, Thailand</h3>
+      <Location>Departure</Location>
+      <p>
+        <strong>12pm - 12.30pm</strong> – GoodBye!
+      </p>
+
+      <p>
+        <strong>1pm</strong> – Bus departs from the venue to Bangkok(Suvarnabhumi Airport).
       </p>
 
       <AfterEvent>
-        If we're lucky enough to have you in town for the rest of the week, and
-        you haven't yet had enough of us, we'll be planning some further events.
-        Please keep us posted of your whereabouts.
+        We will also have other small rituals like Haldi Kumkum(Mehndi Event), Satya Narayan Puja 
+        and Mantri Puja(Wedding Day). Be a part of it if you wish to.
       </AfterEvent>
     </SectionBody>
   </Section>
