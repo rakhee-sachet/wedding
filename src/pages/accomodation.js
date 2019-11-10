@@ -1,5 +1,5 @@
 import React from 'react'
-import { Section, SectionTitle, SectionBody } from '../components/section'
+import { Section, SectionTitle, SectionBody } from '../components/Section'
 
 const AccomodationPage = () => (
   <Section>
@@ -21,7 +21,7 @@ const AccomodationPage = () => (
 
       <ul>
         <li>
-          <a href="http://themollypitcher.com/" target="_blank">
+          <a href="http://themollypitcher.com/" target="_blank" rel="noopener noreferrer">
             Molly Pitcher Inn
           </a>
           – We have a block of rooms reserved in the Molly Pitcher Inn until August 21st. Call
@@ -29,7 +29,7 @@ const AccomodationPage = () => (
           like to book a room in the Cohen / Bell party if you wish to take one of these rooms.
         </li>
         <li>
-          <a href="https://goo.gl/maps/7eFeRzsYr1T2" target="_blank">
+          <a href="https://goo.gl/maps/7eFeRzsYr1T2" target="_blank" rel="noopener noreferrer">
             Quality Inn, Milddletown
           </a>
           – We have a block of rooms at the Quality Inn reserved. Please ask to book in the
@@ -38,7 +38,7 @@ const AccomodationPage = () => (
           Milddletown is also served by Rail from Penn Station.
         </li>
         <li>
-          <a href="http://www.theoysterpointhotel.com/" target="_blank">
+          <a href="http://www.theoysterpointhotel.com/" target="_blank" rel="noopener noreferrer">
             Oyster Point
           </a>
           – A more up-market hotel, right next to the Molly Pitcher.
@@ -47,6 +47,7 @@ const AccomodationPage = () => (
           <a
             href="https://www.marriott.com/hotels/travel/ewrrb-courtyard-lincroft-red-bank/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Courtyard by Marriott
           </a>
@@ -62,7 +63,7 @@ const AccomodationPage = () => (
 
       <ul>
         <li>
-          <a href="http://www.coltsneckinnhotel.com/en-us" target="_blank">
+          <a href="http://www.coltsneckinnhotel.com/en-us" target="_blank" rel="noopener noreferrer">
             Colts Neck Inn Hotel
           </a>
           – Located ~11 mins from the venue by car, Colts Neck Inn is a more affordable

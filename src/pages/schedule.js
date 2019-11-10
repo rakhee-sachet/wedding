@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Section, SectionTitle, SectionBody } from '../components/section'
+import { Section, SectionTitle, SectionBody } from '../components/Section'
 import theme from '../theme'
 
 const Location = styled.h4`
@@ -9,7 +9,7 @@ const Location = styled.h4`
   letter-spacing: 1.5px;
 `
 
-const AfterEvent = Location.extend`
+const AfterEvent = styled(Location)`
   color: #949494;
   text-align: center;
   margin-top: 20px;
@@ -60,7 +60,7 @@ const SchedulePage = () => (
       <p>
         <strong>11pm - Late</strong> – After party for those who aren't already
         partied out. We'll be upstairs at the &nbsp;
-        <a href="https://goo.gl/maps/L5GgNwHnXNM2" target="_blank">Dublin House</a> until 1am, or until
+        <a href="https://goo.gl/maps/L5GgNwHnXNM2" target="_blank" rel="noopener noreferrer">Dublin House</a> until 1am, or until
         they kick us out.
       </p>
 

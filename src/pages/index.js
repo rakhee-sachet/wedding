@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { navigateTo } from 'gatsby-link'
 import theme from '../theme'
+import Header from '../components/Header'
 
 const Container = styled.div`
   display: flex;
@@ -75,6 +75,8 @@ const InnerContainer = styled.div`
 `
 
 const IndexPage = () => (
+  <>
+  <Header/>
   <Container>
     <InnerContainer>
       <Preamble>
@@ -83,20 +85,20 @@ const IndexPage = () => (
       </Preamble>
 
       <Title>
-        Rakhee Singh
+        Rakhee
         <TitleAmpersand>- & -</TitleAmpersand>
-        Sachet Patil
+        Sachet
       </Title>
       <DateAndLocation>
-        February 25th - 25th, 2020 - The Yana Villas, 
-        Hua Hin District, Prachuap Khiri Khan 77110, Thailand
+        February 25th - 26th, 2020 <br/>The Yana Villas, Thailand
       </DateAndLocation>
 
-      <RSVPButton href="https://forms.gle/XegHTW4eTipubVrN7" target="_blank">
+      <RSVPButton href="https://forms.gle/XegHTW4eTipubVrN7" target="_blank" rel="noopener noreferrer">
         rsvp now
       </RSVPButton>
     </InnerContainer>
   </Container>
+  </>
 )
 
 export default IndexPage

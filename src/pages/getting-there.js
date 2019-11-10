@@ -1,6 +1,6 @@
 import React from 'react'
 import { GoogleApiWrapper, Map, Marker } from 'google-maps-react'
-import { Section, SectionTitle, SectionBody } from '../components/section'
+import { Section, SectionTitle, SectionBody } from '../components/Section'
 import styled from 'styled-components'
 
 const MapContainer = styled.div`
@@ -89,7 +89,7 @@ const GettingTherePage = ({ google }) => (
         per person each way.
       </p>
 
-      <a href="https://www.njtransit.com" target="_blank">
+      <a href="https://www.njtransit.com" target="_blank" rel="noopener noreferrer">
         More information at NJ Transit
       </a>
 

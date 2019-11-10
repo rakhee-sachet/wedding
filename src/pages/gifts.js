@@ -1,5 +1,5 @@
 import React from 'react'
-import { Section, SectionTitle, SectionBody } from '../components/section'
+import { Section, SectionTitle, SectionBody } from '../components/Section'
 
 const GiftsPage = () => (
   <Section>
@@ -18,12 +18,13 @@ const GiftsPage = () => (
           <a
             href="https://www.amazon.com/wedding/chris-bell-dana-cohen-holmdel-october-2018/registry/39ESZLSWGOMUS"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Amazon Registry
           </a>
         </li>
         <li>
-          <a href="https://www.zola.com/registry/dana-chris" target="_blank">
+          <a href="https://www.zola.com/registry/dana-chris" target="_blank" rel="noopener noreferrer">
             Zola Registry
           </a>
         </li>
