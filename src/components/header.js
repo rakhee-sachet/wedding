@@ -65,16 +65,16 @@ const activeStyle = {
 const Header = ({ siteTitle }) => (
   <Container>
     <Logo>
-      <Link to="/">Dana & Chris</Link>
+      <Link to="/">Rakhee & Sachet</Link>
     </Logo>
 
     <Navigation>
-      {/* <a href="https://goo.gl/forms/iwzv5DMDvL72ip2Z2" target="_blank">
+      <a href="https://goo.gl/forms/iwzv5DMDvL72ip2Z2" target="_blank" rel="noopener noreferrer">
         RSVP
-      </a> */}
-      <Link to='/rsvp' activeStyle={activeStyle}>
+      </a>
+      {/* <Link to='/rsvp' activeStyle={activeStyle}>
         RSVP
-      </Link>
+      </Link> */}
       <Link to="/schedule" activeStyle={activeStyle}>
         Schedule
       </Link>
