@@ -1,11 +1,22 @@
 import React from 'react'
 import { Section, SectionTitle, SectionBody } from '../components/Section'
 import Layout from '../components/Layout'
+import styled from 'styled-components'
+import usImg from '../images/US.jpg'
+
+const Image = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+`
 
 const GiftsPage = () => (
   <Layout>
   <Section>
     <SectionTitle>Gifts</SectionTitle>
+    <Image src={usImg} class='center'/>
     <SectionBody>
       <p>
         Gifts are not expected — your attendance is by far the most important
