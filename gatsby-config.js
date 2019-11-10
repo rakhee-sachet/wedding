@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-		title: `Rakhee & Sachet – Nov 06th, 2019 – Manhattan, NY`,
+		title: `Rakhee & Sachet's Wedding`,
 		author: `Rakhee & Sachet`,
 		description: `Wedding Website`,
 	},
