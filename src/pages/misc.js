@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Section, SectionTitle, SectionBody } from '../components/section'
+import { Section, SectionTitle, SectionBody } from '../components/Section'
 import usImg from './us.jpg'
 
 const Image = styled.img`
@@ -25,10 +25,10 @@ const MiscPage = () => (
       </p>
       <ul>
         <li>
-          <a href="https://www.gentlemansgazette.com/cocktail-attire-for-men/" target="_blank">Definition for men</a>
+          <a href="https://www.gentlemansgazette.com/cocktail-attire-for-men/" target="_blank" rel="noopener noreferrer">Definition for men</a>
         </li>
         <li>
-          <a href="https://www.whowhatwear.com/cocktail-attire-for-women" target="_blank">Definition for woman</a>
+          <a href="https://www.whowhatwear.com/cocktail-attire-for-women" target="_blank" rel="noopener noreferrer">Definition for woman</a>
         </li>
       </ul>
 
@@ -56,7 +56,7 @@ const MiscPage = () => (
         Netlify. It's typeset in Mrs Eaves, using Roman, Small Caps and Italic.
         The source of the site is available via MIT
         license{' '}
-        <a href="https://github.com/cjbell/wedding-website" target="_blank">
+        <a href="https://github.com/cjbell/wedding-website" target="_blank" rel="noopener noreferrer">
           on Github
         </a>
       </p>

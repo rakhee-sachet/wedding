@@ -7,7 +7,7 @@ import mrseavesroman from '../fonts/mrseavesroman-webfont.woff'
 import mrseavespetitecaps from '../fonts/mrseavespetitecaps-webfont.woff'
 import mrseavessmallcaps from '../fonts/mrseavessmallcaps-webfont.woff'
 import mrseavesitalic from '../fonts/mrseavesitalic-webfont.woff'
-import symphonyBg from './background.jpg'
+import symphonyBg from '../images/background.jpg'
 import theme from '../theme'
 import Header from '../components/header'
 
