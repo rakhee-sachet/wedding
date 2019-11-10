@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Section, SectionTitle, SectionBody } from '../components/Section'
 import theme from '../theme'
+import Layout from '../components/Layout'
 
 const Location = styled.h4`
   font-family: ${theme.font.tertiary};
@@ -25,6 +26,7 @@ const AfterEvent = styled(Location)`
 `
 
 const SchedulePage = () => (
+  <Layout>
   <Section>
     <SectionTitle>Schedule</SectionTitle>
 
@@ -78,6 +80,7 @@ const SchedulePage = () => (
       </AfterEvent>
     </SectionBody>
   </Section>
+  </Layout>
 )
 
 export default SchedulePage

@@ -15,13 +15,14 @@ const Container = styled.div`
 `
 
 const Logo = styled.span`
-  font-family: '${theme.font.secondary}';
+  /* font-family: '${theme.font.secondary}'; */
   display: block;
   text-align: center;
-
   a {
     text-decoration: none;
-    color: #333;
+    color: black;
+    font-weight: bolder;
+
   }
 
   @media only screen and (min-width: 768px) {
@@ -65,16 +66,13 @@ const activeStyle = {
 const Header = ({ siteTitle }) => (
   <Container>
     <Logo>
-      <Link to="/">Rakhee & Sachet</Link>
+      <Link to="/" style={{ fontSize: '25px' }}>Rakhee & Sachet</Link>
     </Logo>
 
     <Navigation>
-      <a href="https://goo.gl/forms/iwzv5DMDvL72ip2Z2" target="_blank" rel="noopener noreferrer">
+      <a href="https://forms.gle/HA2hkrP82U8iPpK3A" target="_blank" rel="noopener noreferrer">
         RSVP
       </a>
-      {/* <Link to='/rsvp' activeStyle={activeStyle}>
-        RSVP
-      </Link> */}
       <Link to="/schedule" activeStyle={activeStyle}>
         Schedule
       </Link>
