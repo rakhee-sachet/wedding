@@ -85,9 +85,9 @@ const Header = ({ siteTitle }) => (
       <Link to="/gifts" activeStyle={activeStyle}>
         Gifts
       </Link>
-      <Link to="/misc" activeStyle={activeStyle}>
+      {/* <Link to="/misc" activeStyle={activeStyle}>
         Misc.
-      </Link>
+      </Link> */}
     </Navigation>
   </Container>
 )
