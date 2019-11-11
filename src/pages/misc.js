@@ -1,12 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Section, SectionTitle, SectionBody } from '../components/Section'
-import usImg from '../images/us.jpg'
 import Layout from '../components/Layout'
-
-const Image = styled.img`
-  width: 100%;
-`
 
 const MiscPage = () => (
   <Layout>
@@ -48,8 +42,6 @@ const MiscPage = () => (
         We're not big into pictures or soppy photos of us kissing, but here we
         are in Portland, Oregan in July 2017.
       </p>
-
-      <Image src={usImg} />
 
       <h3>For the nerds</h3>
 
