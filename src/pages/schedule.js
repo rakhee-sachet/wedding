@@ -6,8 +6,9 @@ import Layout from '../components/Layout'
 
 const Location = styled.h4`
   font-family: ${theme.font.tertiary};
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: 1.5px;
+  text-align: center;
 `
 
 const AfterEvent = styled(Location)`
@@ -32,34 +33,43 @@ const SchedulePage = () => (
 
     <SectionBody>
       <h3>Tuesday, February 25th 2020 <br /> Yana Villa, Thailand</h3>
-      <Location>Mehndi by the Pool</Location>
+      <Location>Mehendi by the Pool</Location>
 
       <p>
-        <strong>8am</strong> – Bus departs from Bangkok(Suvarnabhumi Airport) to the venue.
+        <strong>8am</strong> – Please try to arrive at the Bangkok Airport 
+        (Suvarnabhumi) by 7:30am. Bus departs at 8am towards Hua Hin.
       </p>
 
       <p>
-        <strong>11am - 4pm</strong> – Join us for MEHNDI Panting by the Pool. Wear colourful!
+        <strong>11am - 4pm</strong> – Join us for MEHENDI by the Pool. 
+        Mehendi artists would take turns creating henna designs on hands of all
+        willing to participate.
+        Celebrations will be accompanied by light lunch and drinks.
+        Please be dressed in your colorful self as it's going to be cheerful 
+        and sunny in Hua Hin. :)
       </p>
 
       <Location>Sangeet & Engagement</Location>
 
       <p>
-        <strong>6:30pm</strong> – We'll be kicking things off with Sangeet & Engagement ceremony.
-        Be glamaorous!
+        <strong>6:30pm</strong> – We'll be kicking things off with exchange of 
+        rings and some delicious cake soon followed by unrehersed dance performances
+        by family and friends. Dinner will be served at 8:00pm. Be glamaorous! ;)
       </p>
 
       <h3>Wednesday, February 26th 2020 <br /> Yana Villa, Thailand</h3>
       <Location>Haldi</Location>
       <p>
-        <strong>8am - 9.30am</strong> – Haldi Ceremony. Shine like a Sun!
+        <strong>8am - 9:30am</strong> – Join us waste copious amounts of turmeric. :P <br/>
+        Beware, turmeric stains don't go off easily, so dress appropriately (preferrably, yellow).
       </p>
 
-      <Location>Wedding/Phere</Location>
+      <Location>Wedding / Phere</Location>
 
       <p>
-        <strong>3pm - 6pm</strong> – An Afternoon by the beach wrapped in tradition, family and 
-        Indian culture. Wear your elegant and stunning Indian attire.
+        <strong>3pm - 6pm</strong> –
+        Intimate traditional Indian Wedding by the stunning beach of Hua Hin.
+    
       </p>
 
       <Location>Reception Dinner</Location>
@@ -70,17 +80,18 @@ const SchedulePage = () => (
 
       <h3>Thursday, February 27th 2020 <br /> Yana Villa, Thailand</h3>
       <Location>Departure</Location>
-      <p>
+      {/* <p>
         <strong>12pm - 12.30pm</strong> – GoodBye!
-      </p>
+      </p> */}
 
       <p>
-        <strong>1pm</strong> – Bus departs from the venue to Bangkok(Suvarnabhumi Airport).
+        <strong>1pm</strong> – Bus departs from the venue to Bangkok (Suvarnabhumi Airport).
       </p>
 
       <AfterEvent>
-        We will also have other small rituals like Haldi Kumkum(Mehndi Event), Satya Narayan Puja 
-        and Mantri Puja(Wedding Day). Be a part of it if you wish to.
+        There will be other rituals like Haldi Kumkum (during Mehendi Event), 
+        Satya Narayan Puja and Mantri Puja (Wedding Day) and everyone is welcome
+        to join in.
       </AfterEvent>
     </SectionBody>
   </Section>

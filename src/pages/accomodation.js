@@ -9,25 +9,45 @@ const AccomodationPage = () => (
 
       <SectionBody>
         <p>
-          As the celebration is going to be hosted in the town knows as Beach City, you might want to 
-          enjoy the beach and at the same time consider staying nearby so that you don't need to travel.
+          The celebrations are going to be hosted at 
+          <a href="http://www.theyanavillas.com" target="_blank" rel="noopener noreferrer">
+            The Yana Villas
+          </a> 
+          for the two days. They have been kind enough to offer special rates to our guests attending 
+          the wedding and we would highly recommend staying here. However, there are plenty
+          options nearby that offer competative rates do that you can choose the best that
+          suits your needs. There are plenty Airbnb options nearby as well.
         </p>
 
         <h3>Hotel Options</h3>
 
-        <p>
-          In the nearby town of Hua Hin, TH. there are three hotel options, all in walking distance
-          from the Red Bank train station.
-        </p>
-
         <ul>
           <li>
-            <a href="http://themollypitcher.com/" target="_blank" rel="noopener noreferrer">
-              Molly Pitcher Inn
-            </a>
-            – We have a block of rooms reserved in the Molly Pitcher Inn until August 21st. Call
-            reservations at 732-747-2500 / 1-800-221-1372 and specify that you'd
-            like to book a room in the Cohen / Bell party if you wish to take one of these rooms.
+          <a href="http://www.theyanavillas.com" target="_blank" rel="noopener noreferrer">
+            The Yana Villas
+          </a> 
+            – We have a block of rooms reserved at the Yana Villas for the 25th, 26th and 27th for Feb. 
+            Please let us know if you would like to book one of these rooms in you RSVP or by
+            reaching out to either of us directly. The earlier you do this the better since
+             there are limited number of rooms available.
+             Special Rates - 
+             <table>
+              <tr>
+                <th>Room</th>
+                <th>Price</th>
+                <th>Extra Bed</th>
+              </tr>
+              <tr>
+                <td>Deluxe Room</td>
+                <td>XXXX</td>
+                <td>XXXX</td>
+              </tr>
+              <tr>
+                <td>Dumplex Jacuzzi Suite</td>
+                <td>XXXX</td>
+                <td>XXXX</td>
+              </tr>
+             </table>
           </li>
           <li>
             <a href="https://goo.gl/maps/7eFeRzsYr1T2" target="_blank" rel="noopener noreferrer">
