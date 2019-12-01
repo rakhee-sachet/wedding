@@ -7,7 +7,7 @@ import mrseavesroman from '../fonts/mrseavesroman-webfont.woff'
 import mrseavespetitecaps from '../fonts/mrseavespetitecaps-webfont.woff'
 import mrseavessmallcaps from '../fonts/mrseavessmallcaps-webfont.woff'
 import mrseavesitalic from '../fonts/mrseavesitalic-webfont.woff'
-import symphonyBg from '../images/mandala-background.jpg'
+import mandalaBg from '../images/mandala-background.jpg'
 import theme from '../theme'
 import Header from './Header'
 
@@ -39,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: url(${symphonyBg}) no-repeat;
+    background: url(${mandalaBg}) no-repeat;
     background-size: cover;
     color: #302923;
   }
