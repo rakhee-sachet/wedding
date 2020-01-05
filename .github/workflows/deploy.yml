@@ -14,7 +14,7 @@ jobs:
 
     - name: BuildDeploy
       run: |
-        npm install -g gatsby-cli
-        npm install -g gh-pages
+        npm install gatsby-cli
+        npm install gh-pages
         npm install
         npm deploy
