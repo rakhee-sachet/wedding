@@ -12,9 +12,17 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: BuildDeploy
+    - name: Install
       run: |
         npm install gatsby-cli
         npm install gh-pages
         npm install
         npm run deploy
+
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: public # The folder the action should deploy.
+      
