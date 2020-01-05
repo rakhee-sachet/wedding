@@ -17,7 +17,6 @@ jobs:
         npm install gatsby-cli
         npm install gh-pages
         npm install
-        npm run deploy
 
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
