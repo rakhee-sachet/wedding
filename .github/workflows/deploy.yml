@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  # Deploy code when a push is made to Master
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+
+    - name: BuildDeploy
+      run: |
+        npm install -g gatsby-cli
+        npm install -g gh-pages
+        npm install
+        npm deploy
