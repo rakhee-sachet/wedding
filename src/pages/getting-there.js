@@ -4,16 +4,9 @@ import styled from 'styled-components'
 import Layout from '../components/Layout'
 
 const MapContainer = styled.div`
-  width: 100%;
-  height: 300px;
   position: relative;
-  margin-top: 30px;
+  overflow: hidden;
 `
-
-const bayonetFarmLatLng = {
-  lat: 40.3570588,
-  lng: -74.198656,
-}
 
 const GettingTherePage = ({ google }) => (
   <Layout>
@@ -25,10 +18,16 @@ const GettingTherePage = ({ google }) => (
       The Yana Villas will host all of our celebrations. They are located 
       in Hua Hin approximately 4 hours south from Bangkok (Suvarnabhumi Airport).
       </p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.9108215360657!2d99.97329101428862!3d12.522066591151964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30fdad3b494e1729%3A0x828434ea563c4f58!2sThe%20YANA%20Villas!5e0!3m2!1sen!2sus!4v1575073316347!5m2!1sen!2sus"
-      height="300"
-      width="550"
-      frameBorder="2"></iframe>
+      <MapContainer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.9108215360657!2d99.97329101428862!3d12.522066591151964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30fdad3b494e1729%3A0x828434ea563c4f58!2sThe%20YANA%20Villas!5e0!3m2!1sen!2sus!4v1575073316347!5m2!1sen!2sus"
+        position="absolute"
+        top="0"
+        left="0"
+        width="100%"
+        height="100%"
+        border="0"
+        frameBorder="0"></iframe>
+      </MapContainer>
       <p>
         Nong Kae,<br/>
         Hua Hin District,<br/>
