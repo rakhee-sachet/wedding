@@ -19,6 +19,7 @@ const MiscPage = () => (
     <SectionBody>
       <ul>
         <li>Email: rakheesingh.06@gmail.com</li>
+        <li>Phone: +91 8767223979</li>
         <li>Email: sachetpatil89@gmail.com</li>
         <li>Address: 601 E 20th St, Apt 5E, NY, NY, 10010</li>
       </ul>
