@@ -16,7 +16,6 @@ const GiftsPage = () => (
   <Layout>
   <Section>
     <SectionTitle>Gifts</SectionTitle>
-    <Image src={usImg} class='center'/>
     <SectionBody>
       <p>
         Gifts are not expected — your attendance is by far the most important
