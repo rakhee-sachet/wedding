@@ -25,7 +25,7 @@ const MiscPage = () => (
       </ul>
 
       <h3>Here's another picture of us</h3>
-      <Image src={usImg} class='center'/>
+      <Image src={usImg} />
     </SectionBody>
   </Section>
   </Layout>
